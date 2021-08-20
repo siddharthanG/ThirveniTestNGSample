@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Chrome testing",
+      "children" : [ {
+        "name" : "com.rocket.automation.TestClasses.SampleTestOne",
+        "children" : [ {
+          "name" : "Enter the email",
+          "uid" : "52f4b27a598f803f",
+          "parentUid" : "8dab9dbaa50810c92b137913512da623",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629377420482,
+            "stop" : 1629377425754,
+            "duration" : 5272
+          },
+          "flaky" : false,
+          "parameters" : [ "chrome" ]
+        }, {
+          "name" : "Enter the Password",
+          "uid" : "e7a8af581a98e92",
+          "parentUid" : "8dab9dbaa50810c92b137913512da623",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629377431718,
+            "stop" : 1629377436826,
+            "duration" : 5108
+          },
+          "flaky" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "8dab9dbaa50810c92b137913512da623"
+      } ],
+      "uid" : "f1665cf11a7eb270f072c1b1f6122f59"
+    }, {
+      "name" : "Firefox testing",
+      "children" : [ {
+        "name" : "com.rocket.automation.TestClasses.SampleTest",
+        "children" : [ {
+          "name" : "Verify Succussful login",
+          "uid" : "2e01c249209fabac",
+          "parentUid" : "545685dfdd4a74e9b7d67c51fe499f6c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629377445203,
+            "stop" : 1629377448219,
+            "duration" : 3016
+          },
+          "flaky" : false,
+          "parameters" : [ "firefox" ]
+        } ],
+        "uid" : "545685dfdd4a74e9b7d67c51fe499f6c"
+      } ],
+      "uid" : "6b38908bba8c0b6ef684b194c245ba15"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

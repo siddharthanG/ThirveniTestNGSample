@@ -1,0 +1,53 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.rocket.automation.TestClasses",
+    "children" : [ {
+      "name" : "SampleTestOne",
+      "children" : [ {
+        "name" : "TestOne",
+        "uid" : "52f4b27a598f803f",
+        "parentUid" : "533d845dd3eece9f84a6d5aba29c17ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629377420482,
+          "stop" : 1629377425754,
+          "duration" : 5272
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "TestSecond",
+        "uid" : "e7a8af581a98e92",
+        "parentUid" : "533d845dd3eece9f84a6d5aba29c17ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629377431718,
+          "stop" : 1629377436826,
+          "duration" : 5108
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "533d845dd3eece9f84a6d5aba29c17ee"
+    }, {
+      "name" : "SampleTest",
+      "children" : [ {
+        "name" : "SuccefullLogin",
+        "uid" : "2e01c249209fabac",
+        "parentUid" : "bb383347d981b239a6aa4d241c05eff9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629377445203,
+          "stop" : 1629377448219,
+          "duration" : 3016
+        },
+        "flaky" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "bb383347d981b239a6aa4d241c05eff9"
+    } ],
+    "uid" : "com.rocket.automation.TestClasses"
+  } ]
+}

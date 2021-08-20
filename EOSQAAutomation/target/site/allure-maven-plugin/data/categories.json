@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='user_email_login1']\"}\n  (Session info: chrome=92.0.4515.131)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'\nSystem info: host: 'INMAASIDDGUNA2P', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SIDDHA~1.G\\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:58053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3f5683412b4b7b1d9da69bc4233dad6c\n*** Element info: {Using=xpath, value=//*[@id='user_email_login1']}",
+      "children" : [ {
+        "name" : "Enter the email",
+        "uid" : "52f4b27a598f803f",
+        "parentUid" : "9510c187c6e7fa839281c5ab21a526e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629377420482,
+          "stop" : 1629377425754,
+          "duration" : 5272
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "9510c187c6e7fa839281c5ab21a526e5"
+    }, {
+      "name" : "Element <input id=\"user_full_name\" class=\"input-lg text\" name=\"user[full_name]\" type=\"text\"> is not reachable by keyboard\nBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'\nSystem info: host: 'INMAASIDDGUNA2P', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28480, moz:profile: C:\\Users\\Siddharthan.G\\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 86eb8800-2072-4af9-a4a2-0033302a8aed",
+      "children" : [ {
+        "name" : "Verify Succussful login",
+        "uid" : "2e01c249209fabac",
+        "parentUid" : "3b61312e3d4cc2854291f6a30447a263",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629377445203,
+          "stop" : 1629377448219,
+          "duration" : 3016
+        },
+        "flaky" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "3b61312e3d4cc2854291f6a30447a263"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

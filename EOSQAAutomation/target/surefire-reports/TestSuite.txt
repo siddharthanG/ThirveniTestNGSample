@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 88.732 s <<< FAILURE! - in TestSuite
+com.rocket.automation.TestClasses.SampleTestOne.TestOne  Time elapsed: 5.281 s  <<< FAILURE!
+java.lang.AssertionError: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='user_email_login1']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'INMAASIDDGUNA2P', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SIDDHA~1.G\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:58053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f5683412b4b7b1d9da69bc4233dad6c
+*** Element info: {Using=xpath, value=//*[@id='user_email_login1']}
+	at com.rocket.automation.TestClasses.SampleTestOne.TestOne(SampleTestOne.java:58)
+
+com.rocket.automation.TestClasses.SampleTest.SuccefullLogin  Time elapsed: 3.02 s  <<< FAILURE!
+java.lang.AssertionError: 
+Element <input id="user_full_name" class="input-lg text" name="user[full_name]" type="text"> is not reachable by keyboard
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'INMAASIDDGUNA2P', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28480, moz:profile: C:\Users\Siddharthan.G\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86eb8800-2072-4af9-a4a2-0033302a8aed
+	at com.rocket.automation.TestClasses.SampleTest.SuccefullLogin(SampleTest.java:76)
+

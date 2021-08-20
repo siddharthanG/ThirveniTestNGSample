@@ -1,0 +1,31 @@
+[ {
+  "uid" : "52f4b27a598f803f",
+  "name" : "Enter the email",
+  "time" : {
+    "start" : 1629377420482,
+    "stop" : 1629377425754,
+    "duration" : 5272
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e01c249209fabac",
+  "name" : "Verify Succussful login",
+  "time" : {
+    "start" : 1629377445203,
+    "stop" : 1629377448219,
+    "duration" : 3016
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7a8af581a98e92",
+  "name" : "Enter the Password",
+  "time" : {
+    "start" : 1629377431718,
+    "stop" : 1629377436826,
+    "duration" : 5108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

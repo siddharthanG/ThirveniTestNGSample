@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.rocket.automation.Listeners.RetryListenerClass"/>
+    <listener class-name="com.rocket.automation.Listeners.TestAllureReportListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Chrome testing(failed)" parallel="tests">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.rocket.automation.TestClasses.SampleTestOne">
+        <methods>
+          <include name="firstTest"/>
+          <include name="TestOne"/>
+          <include name="lastTest"/>
+        </methods>
+      </class> <!-- com.rocket.automation.TestClasses.SampleTestOne -->
+    </classes>
+  </test> <!-- Chrome testing(failed) -->
+  <test thread-count="5" verbose="0" name="Firefox testing(failed)" parallel="tests">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.rocket.automation.TestClasses.SampleTest">
+        <methods>
+          <include name="SuccefullLogin"/>
+          <include name="firstTest"/>
+          <include name="lastTest"/>
+        </methods>
+      </class> <!-- com.rocket.automation.TestClasses.SampleTest -->
+    </classes>
+  </test> <!-- Firefox testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"failed","com.rocket.automation.TestClasses.SampleTest.SuccefullLogin","3016","Test Case Description: Verify Succussful login"
+"passed","com.rocket.automation.TestClasses.SampleTestOne.TestSecond","5108","Test Case Description: Verify Email field is enabled"
+"failed","com.rocket.automation.TestClasses.SampleTestOne.TestOne","5272","Test Case Description: Verify Email field is enabled"

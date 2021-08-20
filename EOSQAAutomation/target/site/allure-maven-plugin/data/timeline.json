@@ -1,0 +1,53 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "INMAASIDDGUNA2P",
+    "children" : [ {
+      "name" : "17124@INMAASIDDGUNA2P.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "Verify Succussful login",
+        "uid" : "2e01c249209fabac",
+        "parentUid" : "18f9fb9a79c42cf0658d9648cf0d6b30",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629377445203,
+          "stop" : 1629377448219,
+          "duration" : 3016
+        },
+        "flaky" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "18f9fb9a79c42cf0658d9648cf0d6b30"
+    }, {
+      "name" : "17124@INMAASIDDGUNA2P.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "Enter the Password",
+        "uid" : "e7a8af581a98e92",
+        "parentUid" : "801628696febb9973ede8ac7b9712733",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629377431718,
+          "stop" : 1629377436826,
+          "duration" : 5108
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Enter the email",
+        "uid" : "52f4b27a598f803f",
+        "parentUid" : "801628696febb9973ede8ac7b9712733",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629377420482,
+          "stop" : 1629377425754,
+          "duration" : 5272
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "801628696febb9973ede8ac7b9712733"
+    } ],
+    "uid" : "0b267f554e70b3f074e9c3bd26670807"
+  } ]
+}

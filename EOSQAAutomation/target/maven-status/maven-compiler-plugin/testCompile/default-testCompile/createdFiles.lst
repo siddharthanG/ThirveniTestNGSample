@@ -1,0 +1,4 @@
+com\rocket\automation\PageObjects\SamplePageObjects.class
+com\rocket\automation\TestClasses\SampleTest.class
+com\rocket\automation\PageObjects\SignInPageObjects.class
+com\rocket\automation\TestClasses\SampleTestOne.class
